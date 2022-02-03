@@ -1,0 +1,333 @@
+@import "null.css";
+
+/* Шрифты */
+/*Google */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Caveat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ruslan+Display&display=swap');
+
+/* Скаченные */
+@font-face {
+	font-family: "PressStart2P";
+	src: url('../fonts/PressStart2P-Regular.woff2') format("woff2"), url('../fonts/PressStart2P-Regular.woff') format("woff");
+}
+@font-face {
+	font-family: "Pacifico";
+	src: url('../fonts/Pacifico/Pacifico-Regular.woff2') format("woff2"), url('../fonts/Pacifico/Pacifico-Regular.woff') format("woff");
+}
+@font-face {
+	font-family: "Rubik";
+	src: url('../fonts/Rubik/RubikBeastly-Regular.woff2') format("woff2"), url('../fonts/Rubik/RubikBeastly-Regular.woff') format("woff");
+}
+@font-face {
+	font-family: "ReggaeOne";
+	src: url('../fonts/Reggae/ReggaeOne-Regular.woff2') format("woff2"), url('../fonts/Reggae/ReggaeOne-Regular.woff') format("woff");
+}
+@font-face {
+	font-family: "RampartOne";
+	src: url('../fonts/Rampart_One/RampartOne-Regular.woff2') format("woff2"), url('../fonts/Rampart_One/RampartOne-Regular.woff') format("woff");
+}
+@font-face {
+	font-family: "HachiMaruPop";
+	src: url('../fonts/Hachi_Maru_Pop/HachiMaruPop-Regular.woff2') format("woff2"), url('../fonts/Hachi_Maru_Pop/HachiMaruPop-Regular.woff') format("woff");
+}
+@font-face {
+	font-family: "Stick";
+	src: url('../fonts/Stick/Stick-Regular.woff2') format("woff2"), url('../fonts/Stick/Stick-Regular.woff') format("woff");
+}
+@font-face {
+	font-family: "TrainOne";
+	src: url('../fonts/Train_One/TrainOne-Regular.woff2') format("woff2"), url('../fonts/Train_One/TrainOne-Regular.woff') format("woff");
+}
+@font-face {
+	font-family: "Oi";
+	src: url('../fonts/Oi/Oi-Regular.woff2') format("woff2"), url('../fonts/Oi/Oi-Regular.woff') format("woff");
+}
+@font-face {
+	font-family: "StalinistOne";
+	src: url('../fonts/Stalinist_One/StalinistOne-Regular.woff2') format("woff2"), url('../fonts/Stalinist_One/StalinistOne-Regular.woff') format("woff");
+}
+
+/* Общии */
+body {
+	font-size: 20px;
+	line-height: 1.2;
+}
+span a{
+	font-family: "Caveat", sans-serif;
+	text-decoration: underline;
+	color: rgb(255, 0, 0);
+	text-shadow: 2px 1px 19px rgb(61, 12, 12);
+}
+h2 {
+	font-family: "Balsamiq Sans", sans-serif;
+	font-size: 30px;
+	color: rgb(55, 0, 255);
+	font-weight: 700;
+	text-indent: 30px;
+}
+.img {
+	text-indent: 33px;
+	line-height: 28;
+}
+.fact mark {
+	letter-spacing: 10px;
+	color: rgb(99, 248, 0);
+	line-height: 1.2;
+	text-indent: 680px;
+	text-decoration: overline;
+	text-shadow: -3px -0.5px 1px rgb(138, 110, 110);
+}
+
+/* Меню */
+h1 mark {
+	font-family: "Balsamiq Sans", sans-serif;
+	font-style: italic;
+	color: rgb(18, 160, 170);
+	text-shadow: 1px 1px 13px rgb(0, 225, 255); 
+}
+.section {
+	font-family:"Playfair Display", sans-serif;
+	font-size: 18px;
+	color: rgb(255, 0, 0);
+	text-decoration: underline;
+	text-align: left;
+	text-shadow: 1px 1px 11px rgb(46, 41, 29);
+	text-indent: 20px;
+}
+.subsection {
+	text-indent: 40px;
+}
+
+/* Вступление */
+h1 {
+	font-family: "Comforter", sans-serif;
+	font-size: 40px;
+	text-align: center;
+	letter-spacing: 4px;
+}
+
+.introduction p{
+	font-family: "Amatic SC", sans-serif;
+	letter-spacing: 5px;
+	text-transform: capitalize;
+	text-indent: 10px;
+}
+
+/* 1 */
+#idcheese {
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.cheese {
+	font-family: sans-serif;
+	color: rgb(33, 129, 153);
+	text-align: right;
+	font-weight: 700;
+	text-indent: 490px;
+}
+.cheese p {
+	text-shadow: 5px 8px 3px rgb(201, 162, 162);
+}
+.cheese mark {
+	text-decoration: line-through;
+	color: rgb(108, 126, 10);
+}
+
+/* 2 */
+.marks {
+	font-family: "PressStart2P", sans-serif;
+	text-align: left;
+}
+.marks-text-one {
+	text-indent: 20px;
+	letter-spacing: 10px;
+	color: rgb(3, 233, 195);
+	text-shadow: 4px 2px 1px #000;
+}
+.marks-text-two {
+	text-indent: 20px;
+	color: rgb(5, 107, 99);
+	text-transform: lowercase;
+	font-style: italic;
+}
+.marks-text-two span {
+	color: rgb(255, 187, 0);
+	font-weight: 900;
+	font-style: normal;
+}
+
+/* 3 */
+#idbiology {
+	word-spacing: 30px;
+}
+.biology{
+	text-align: right;
+}
+.biology p{
+	font-family: "Pacifico";
+	text-indent: 330px;
+	line-height: 2;
+	color: rgb(255, 0, 0);
+}
+
+/* 4 */
+.gay p{
+	font-family: "Rubik", sans-serif;
+	color: rgb(255, 0, 234);
+	word-spacing: 39px;
+	text-indent: 10px;
+}
+.gay .fact {
+	font-family: "Pacifico";
+	text-indent: 0px;
+	line-height: 2;
+}
+
+/* 5 */
+.smile{
+	text-align: right;
+}
+#idsmile {
+	font-style: italic;
+	text-shadow: 2px -2px 5px rgb(9, 116, 255);
+}
+.smile p {
+	font-family: "ReggaeOne", sans-serif;
+	color: rgba(82, 67, 67, 0.377);
+	text-transform: uppercase;
+	font-size: 21px;
+	text-indent: 220px;
+	line-height: 2;
+}
+.smile-link a {
+	color: rgb(0, 255, 221);
+}
+
+/* 6 */
+.hole p {
+	font-size: 27px;
+	color: rgb(255, 0, 0);
+	text-indent: 10px;
+	letter-spacing: 10px;
+	line-height: 2;
+}
+
+/* 7 */
+.skvidvard {
+	text-align: right;
+}
+.skvidvard p {
+	font-family: "Ruslan Display", sans-serif;
+	color: rgb(255, 174, 0);
+	text-indent: 20px;
+	line-height: 1.5;
+}
+.skvidvard span {
+	color: rgb(255, 0, 64);
+}
+
+/* 8 */
+.patrik{
+	text-align: left;
+}
+.patrik p {
+	font-family: "RampartOne", sans-serif;
+	color: rgba(11, 121, 70, 0.445);
+	text-shadow: -1px 2px 15px rgb(24, 23, 23);
+	letter-spacing: 5px;
+	line-height: 2.3;
+}
+
+/* 9 */
+.children  {
+	text-align: right;
+}
+.children p {
+	font-family: "HachiMaruPop", sans-serif;
+	font-size: 15px;
+	color: rgb(14, 167, 187);
+	line-height: 1.6;
+	text-transform: uppercase;
+}
+
+/* 10 */
+.joke {
+	text-align: left;
+}
+.joke p {
+	font-family: "stick", sans-serif;
+	text-shadow: 3px 3px 6px #000;
+	line-height: 1.4;
+}
+.joke a {
+	text-decoration: none;
+	color: rgb(131, 123, 243);
+}
+
+/* 11 */
+.pineapple{
+	text-align: right;
+}
+.pineapple p {
+	font-size: 27px;
+	font-weight: 700;
+	text-decoration: line-through;
+}
+
+/* 12 */
+.krabsburger {
+	color: rgb(255, 0, 0);
+	text-align: left;
+}
+#idkrabsburger {
+	color: rgb(55, 167, 11);
+	text-shadow: 2px 2px 1px #000;
+}
+.krabsburger p {
+	font-family: "TrainOne", sans-serif;
+	line-height: 1.3;
+	text-transform: lowercase;
+	text-indent: 10px;
+}
+
+/* 13 */
+.logic{
+	text-align: right;
+}
+.logic p {
+	font-family: "Oi", sans-serif;
+	color: rgb(116, 136, 3);
+	line-height: 1.9;
+	word-spacing: 10px;
+}
+
+/* В начало */
+.begining {
+	text-align: center;
+}
+.begining a{
+	font-family: "StalinistOne", sans-serif;
+	font-size: 40px;
+	color: rgb(255, 145, 0);
+	text-decoration: none;
+	text-shadow: 2px 3px 1px rgb(0, 255, 0);
+}
+
+/* Подвал */
+.footer {
+	color: rgb(194, 197, 0);
+	text-shadow: 1px 1px 2px #000;
+}
+.footer-list li {
+	font-family: "RampartOne", sans-serif;
+	text-indent: 30px;
+	letter-spacing: 10px;
+}
+.figma {
+	font-family:"Pacifico", sans-serif;
+	font-size: 50px;
+	letter-spacing: 10px;
+}
